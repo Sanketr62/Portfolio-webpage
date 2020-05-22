@@ -1,0 +1,252 @@
+body{
+	background: #f2f3f7;
+}
+
+.bg1{
+	font-family: monospace;
+	text-align: left;
+	font-weight: bolder;
+	font-size: 7px;
+	color: rgba(34, 49, 63, 1);
+	padding-top: 40px;
+	padding-right: 150px;
+	padding-left: 150px;
+}
+
+.bgtop{
+	background: rgba(243, 241, 239, 1);
+	padding-top: 40px;
+	padding-right: 150px;
+	padding-left: 150px;
+	padding-bottom: 15px;
+}
+
+.bgtop a{
+	position: relative;
+	display: inline-block;
+
+}
+
+.bgtop a:hover {
+	border:2px solid #111;
+}
+
+.bgtop . a:active{
+	border:2px solid #111;
+}
+
+.comp{
+	text-decoration: none;
+	color: black;
+	font-family: sans-serif;
+	padding: 8px;
+}
+
+.home{
+	color: black;
+	text-decoration: none;
+	font-family: sans-serif;
+	padding: 10px;
+	float: right;
+	border:2px solid #111;
+}
+
+.works{
+	color: black;
+	text-decoration: none;
+	font-family: sans-serif;
+	padding: 10px;
+	float: right;
+}
+
+.about{
+	color: black;
+	text-decoration: none;
+	font-family: sans-serif;
+	padding: 10px;
+	float: right;
+}
+
+
+.btn {
+  padding: 5px 5px;
+  font-size: 15px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  color: black;
+  border: 2px #383736 solid;
+  border-radius: 25px;
+  outline: 0;
+}
+
+.samp{
+  padding: 5px 5px;
+  font-size: 15px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  color: black;
+  border: 2px #383736 solid;
+  border-radius: 25px;
+  outline: 0;
+  margin-left: 150px;
+}
+
+.fstp{
+	font-family: monospace;
+	text-align: left;
+	font-weight: bolder;
+	font-size: 40px;
+	color: black;
+	float: left;
+	padding-left: 60px;
+	margin-right: 400px;
+	margin-top: 0px;
+}
+
+.img1{
+	float: right;
+	height: auto;
+	margin-left: 150px;
+	margin-top: 35px;
+	margin-right: 35px;
+}
+
+.group1{
+	position: absolute;
+	top: 400px;
+	left: 770px;
+	transform: translate(-50%,-50%);
+	width: 1250px;
+	height: 300px;
+	box-sizing: border-box;
+	background: #f2f3f7;
+	border-radius: 25px;
+	display: flex;
+	float: center;
+	box-shadow: -3px -3px 7px white, 3px 3px 5px grey;
+}
+
+.group1 .img1{
+	width: 150px;
+	flex:0 0 150px;
+}
+
+.group1 .img1 img{
+	max-width: 100%
+}
+
+.group .fstp{
+	padding-right: 20px;
+
+}
+
+
+
+.container{
+  padding-top: 500px;
+  margin-left: 70px;
+  display: table;
+  border-spacing: 60px;
+  width: 100%
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 10px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container .card{
+  display: table-cell;
+  margin: 0px;
+  padding: 40px 100px;
+  background: #f2f3f7;
+  border-radius: 40px;
+  box-shadow: 6px 6px 20px rgba(0,0,0,0.05),
+        -6px -6px 20px rgba(255,255,255,2);
+}
+
+.container .card:hover{
+  box-shadow: inset -6px -6px 10px rgba(255,255,255,0.5),
+              inset 6px 6px 10px rgba(0,0,0,0.05);
+}
+
+.container .card .imgbox{
+  position: relative;
+  text-align: center;
+}
+
+.container .card .imgbox img{
+  max-width: 180px;
+}
+
+.container .card .contentbox{
+  position: relative;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.container .card .contentbox h2{
+  color: #32a3b1;
+  font-weight: 700;
+  font-size: 1.4em;
+  letter-spacing: 2px;
+}
+
+.container .card .contentbox p{
+  color: #32a3b1;
+}
+
+
+.container .card .contentbox a{
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  display: inline-block;
+  margin-top: 30px;
+  border-radius: 40px;
+  color: #32a3b1;
+  font-size: 16px;
+  text-decoration: none;
+  box-shadow: -4px -4px 15px rgba(255,255,255,1),
+        4px 4px 15px rgba(0,0,0,0.1);
+}
+
+
+.container .card .contentbox a:hover {
+
+  box-shadow: -4px -4px 10px rgba(0,0,0,0.1),
+        4px 4px 10px rgba(255,255,255,0.5);
+
+  }
+
+
+.container .card .contentbox a:hover span{
+  display: block;
+  transform: scale(0.98);
+
+}
+
+
+.container .card:hover .imgbox,
+.container .card:hover .contentbox{
+  transform: scale(0.98);
+}
+
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgba(189, 195, 199, 1);
+   color: white;
+   text-align: center;
+}
+
+.footertxt{
+	font-family: sans-serif;
+	padding-bottom: 10px;
+	color: #32a3b1;
+	padding-top: 10px;
+	font-weight: bolder;
+}
